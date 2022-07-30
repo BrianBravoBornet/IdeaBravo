@@ -546,3 +546,74 @@ footer {
         200px auto 200px;   
     }
 }
+
+ /* transiciones */
+#borrar {
+    transition: all 0.5s;
+}
+
+#borrar:hover {
+    background-color: red;
+    
+}
+
+#enviar {
+    transition: all 0.5s;
+}
+
+#enviar:hover {
+    background-color: greenyellow;
+    
+}
+
+/* keyframes */
+
+@keyframes logo_animado {
+    0% {}
+    25% {
+        transform:scale(1.1, 1.1);
+    }
+    50% {
+        transform:scale(1.2, 1.2);
+    }
+    75% {
+        transform:scale(1.1, 1.1);
+    }
+    100% {
+        transform:scale(1.1, 1.1);
+    }
+    to {
+        transform: scale(1.1, 1.1);
+    }
+}
+
+.display-2-intro {
+    animation-name: logo_animado;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+.electroniccelu {
+    animation-name: logo_animado;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.electroniccompu {
+    animation-name: logo_animado;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.electronicconsolas {
+    animation-name: logo_animado;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.electroniccontacto {
+    animation-name: logo_animado;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
